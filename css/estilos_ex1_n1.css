@@ -1,0 +1,97 @@
+* {
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+
+.flex-container-father {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.encabezado {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #20295f;
+    align-items: center;
+}
+
+.logo {
+    background-color: #da4a4a;
+    flex: 1 1 auto;
+}
+
+.nav {
+    background-color: #da4a4a;
+    flex: 5 1 auto;
+}
+
+.social {
+    background-color: #da4a4a;
+    flex: 1 1 auto;
+}
+
+.contenido-principal {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: orange;
+}
+
+h1 {
+    background-color: yellow;
+    flex: 1 1 auto;
+}
+
+
+.seccion {
+    display: flex;
+    background-color: black;
+}
+
+.articulos {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 1 auto;
+    background-color: rgb(79, 90, 126);
+}
+
+.article {
+    flex: 1 1 40%;
+    background-color: rgb(30, 57, 146);
+}
+
+.navegacion {
+    flex: 1 1 100%;
+    background-color: rgb(101, 190, 206);
+}
+
+.aparte {
+    flex: 1 1 auto;
+    background-color: rgb(214, 26, 67);
+}
+
+.relacionado {
+    background-color: yellow;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.pie {
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+    background-color: rgb(204, 156, 25);
+}
